@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "mastodon-suspension-notifier"
+version = "0.1.0"
+description = ""
+authors = ["Local User <user@local>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+psycopg = "^3.1.18"
+appdirs = "^1.4.4"
+mastodon-py = "^1.8.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pdbpp = "^0.10.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

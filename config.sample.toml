@@ -1,0 +1,15 @@
+# Sample config file for ~/.config/mastodon-suspension-notifier.
+# All mandatory options will be requested via stdin.
+
+# Postgres connection string. Used to query user relationships. Mandatory.
+#postgres_connectionstring='host=127.0.0.1 port=5432 dbname=mastodon_production user=mastodon password=qwertyuiop'
+# Your instance's domain (where the API is hosted). Mandatory.
+#local_instance='social.example.org'
+# Your access token. Mandatory.
+#access_token='qwertyuiopasdfghjklzxcvbnm'
+# Instance that to notify about. Mandatory.
+#remote_instance='social.badactor.example'
+# The reason to tell affected users. Mandatory.
+#reason='them being very evil and shit (please insert a proper reason or you will be embarassed)'
+# The scheduled date for the suspension in ISO 8601 format (all valid formats accepted). Mandatory.
+#suspension_date='2024-03-04T22+01:00'
