@@ -6,8 +6,8 @@ authors = ["Local User <user@local>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
-psycopg = "^3.1.18"
+python = "^3.12"
+psycopg = "^3.1.19"
 appdirs = "^1.4.4"
 mastodon-py = "^1.8.1"
 
